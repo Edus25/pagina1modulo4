@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #005b96;
+    font-size: 2em;
+}
+
+.trophies, .teams, .achievements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trophy, .team, .achievement {
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+}
+
+.trophy img, .team img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3d3d3d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+    
